@@ -8,9 +8,9 @@ use Illuminate\Support\Str;
 use Rushing\Popcorn\Invocables\LocalInvocable;
 use Splicewire\Fda\Connectors\FdaConnector;
 use Splicewire\Fda\Requests\GetDrugShortages;
-use Splicewire\Knowledge\Compliance\Concept\ConceptStatus;
-use Splicewire\Knowledge\Complying\Concept\Ingestion\OpenFdaShortageSource;
-use Splicewire\Knowledge\Complying\Concept\Ingestion\StatusIngestor;
+use Splicewire\Knowledge\Determination\Concept\ConceptStatus;
+use Splicewire\Knowledge\Determining\Concept\Ingestion\OpenFdaShortageSource;
+use Splicewire\Knowledge\Determining\Concept\Ingestion\StatusIngestor;
 
 /**
  * Manually-run sync, matching splicewire/conduit-ecfr's `ecfr:sync` precedent

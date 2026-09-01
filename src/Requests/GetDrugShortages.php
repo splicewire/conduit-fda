@@ -7,7 +7,7 @@ use Saloon\Http\Request;
 
 /**
  * GET /drug/drugshortages.json — the exact endpoint named in
- * Splicewire\Knowledge\Complying\Concept\Ingestion\OpenFdaShortageSource's own
+ * Splicewire\Knowledge\Determining\Concept\Ingestion\OpenFdaShortageSource's own
  * docblock. Supports openFDA's standard query params: `search` (a Lucene-style
  * query, e.g. "generic_name:tirzepatide"), `limit` (max 1000, openFDA default
  * 1), and `skip` (pagination offset, max 25000). All are optional — with none
