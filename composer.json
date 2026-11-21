@@ -54,62 +54,6 @@
     },
     "repositories": [
         {
-            "type": "path",
-            "url": "../../rushing/laravel-pipeline-registry",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "type": "path",
-            "url": "../../rushing/laravel-popcorn",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "type": "path",
-            "url": "../../rushing/php-popcorn",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "type": "path",
-            "url": "../../schemastud/laravel-data-schemas",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "type": "path",
-            "url": "../laravel-grounding-kernel",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "type": "path",
-            "url": "../laravel-grounding-spine",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "type": "path",
-            "url": "../laravel-knowledge-engine",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "type": "path",
-            "url": "../laravel-knowledge-spine",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
             "type": "git",
             "url": "https://github.com/stephenr85/php-popcorn.git"
         },
@@ -140,6 +84,10 @@
         {
             "type": "git",
             "url": "https://github.com/schemastud/php-json-ns.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/stephenr85/laravel-pipeline-registry.git"
         }
     ],
     "minimum-stability": "dev",
